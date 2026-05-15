@@ -1,0 +1,113 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+    font-size: 25px;
+  
+}
+
+.menu-list {
+    list-style: none; /* (Вже тут, щоб прибрати крапки) */
+    padding: 0;
+    margin: 0;
+    /* --- ДОДАЙ FLEX ТУТ --- */
+    display:flex ;
+   
+}
+
+header {
+    padding: 18px 24px;
+    background: pink;
+    color: white;
+    /* --- ДОДАЙ FLEX ТУТ --- */
+    display:flex ;
+   justify-content:space-between ;
+   align-items:center ;
+}
+
+.m {
+    color: #57064c;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: white;
+    margin-left: 8px;
+}
+
+.DOki {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+
+.dokich{
+    display:flex ;
+    justify-content:space-around ;
+    align-items:center ;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* --- СТИЛІ ДЛЯ HERO-БЛОКУ --- */
+   min-height: 90vh;
+   color:white ;
+   background-image:url("2.avif") ;
+   background-repeat:no-repeat;
+   background-size:cover ;
+   background-position:center ;
+   text-shadow:2px 2px 5px black;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 0; 
+
+}
+
+.hero p {
+    font-size: 22px;
+   
+}
+
+.cta-button {
+padding: 15px 30px;
+text-decoration: none;
+color: white;
+border-radius: 50px;
+font-weight: bold;
+margin-top: 25px;
+background-color:pink ;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.dokich2{
+    display:flex ;
+    padding-top: 50px;
+    justify-content:space-around ;
+    align-items:center ;
+}
+
+footer{
+  
+    padding: 50px;
+    background-color: pink;
+    text-align: center;
+}
+
+footer h1, footer h2{
+    color: white;
+}
+
+footer a{
+    background-color: #301f2d;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
