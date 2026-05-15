@@ -60,6 +60,7 @@ header {
    background-size:cover ;
    background-position:center ;
    text-shadow:2px 2px 5px black;
+  width: 900px;
 }
 
 .hero h1 {
