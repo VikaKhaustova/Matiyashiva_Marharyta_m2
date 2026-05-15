@@ -60,13 +60,13 @@ header {
    background-size:cover ;
    background-position:center ;
    text-shadow:2px 2px 5px black;
-  width: 900px;
+  padding: 70px;
 }
 
 .hero h1 {
     font-size: 50px;
     margin-bottom: 0; 
-
+  
 }
 
 .hero p {
